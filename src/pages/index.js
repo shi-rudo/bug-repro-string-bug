@@ -1,5 +1,10 @@
 import React from "react"
+import CustomTable from "../components/table.component"
+
+
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return <div>
+    <CustomTable/>
+  </div>
 }
